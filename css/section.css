@@ -1,0 +1,407 @@
+#sub-section1{
+    /* border: 2px solid; */
+    height: 85vh;
+    background-image: url("../image/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center center;
+    margin-top: 10px;
+
+}
+#sub-section1 div{
+    padding-top: 47px;
+}
+#sub-section1 a{
+    border: 1px solid #0071e3;
+    color: white;
+    background-color: #0071e3;
+    font-size: 17px;
+    border-radius: 980px;
+    /* font-weight: 400; */
+    position: relative;
+    left: 44%;
+    top: 30px;
+    padding: 11px 20px;
+    text-decoration: none;
+    margin: 6px;
+}
+#sub-section1 a+a{
+    border: 1px solid #0071e3;
+    color: #0071e3;
+    background-color: #000000;
+    font-size: 17px;
+    border-radius: 980px;
+    /* font-weight: 400; */
+    position: relative;
+    left: 44%;
+    top: 30px;
+    padding: 11px 20px;
+    text-decoration: none;
+    margin: 6px;
+}
+#sub-section1 a+a:hover{
+    background-color: #0071e3;
+    color: white;
+}
+#sub-section1 h3{
+    /* border: 2px solid red; */
+    font-size: 52px;
+    font-weight: 600;
+    color:#ffff;
+    text-align: center;
+  
+}
+#sub-section1 p{
+    /* border: 2px solid red; */
+    color: #ffff;
+    font-size: 28px;
+    text-align: center;
+
+}
+#sub-section2{
+    
+    height: 88vh;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+#applelogo,#iphones{
+    height: inherit;
+    flex: 1;
+    /* border: 2px solid red; */
+}
+#applelogo{
+    background-image: url("../image/applelogo");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center center;
+}
+#applelogo h2{
+    /* border: 2px solid red; */
+    text-align: center;
+    position: relative;
+    top: 60%;
+    font-size: 38px;
+}
+#applelogo p{
+    /* border: 2px solid red; */
+    text-align: center;
+    position: relative;
+    top: 61%;
+    font-size: 20px;
+}
+#applelogo a{
+    /* border: 2px solid red; */
+    text-align: center;
+    position: relative;
+    left: 47%;
+    top: 65%;
+    border-radius: 980px;
+    padding: 7px 15px;
+    font-size: 14px;
+    text-decoration: none;
+     border: 1px solid #0071e3;
+    background: none;
+    color: #0071e3;
+}
+#applelogo a:hover{
+      color: white;
+    background-color: #0071e3;
+}
+#iphones{
+    background-color: #f5f5f7;
+    background-image: url(../image/middle2.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center center;
+}
+#iphones h2{
+    text-align: center;
+    position: relative;
+    top: 60px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#iphones p{
+    /* border: 2px solid red; */
+    text-align: center;
+    position: relative;
+    top: 62px;
+    font-size: 20px;
+}
+#iphones a{
+    /* border: 2px solid red; */
+    text-align: center;
+    position: relative;
+    left: 40%;
+    top: 85px;
+    border-radius: 980px;
+    padding: 9px 15px;
+    font-size: 14px;
+    text-decoration: none;
+     border: 1px solid #0071e3;
+    background: #0071e3;
+    color: white;
+   
+
+}
+#iphones a+a{
+     text-align: center;
+    position: relative;
+    left: 41%;
+    top: 85px;
+    border-radius: 980px;
+    padding: 9px 16px;
+    font-size: 14px;
+    text-decoration: none;
+     border: 1px solid #0071e3;
+    background: none;
+    color: #0071e3;
+}
+#iphones a:hover{
+      color: white;
+    background-color: #0071e3;
+}
+#sub-section3{
+    
+    height: 88vh;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+#Airpods,#Watch{
+    height: inherit;
+    flex: 1;
+    /* border: 2px solid red; */
+}
+#Airpods{
+     background-color: #f5f5f7;
+    background-image: url(../image/airpods);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center center;
+}
+#Airpods h2{
+    text-align: center;
+    position: relative;
+    top: 60px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#Airpods p{
+    /* border: 2px solid red; */
+    text-align: center;
+    position: relative;
+    top: 62px;
+    font-size: 20px;
+}
+#Airpods a{
+    /* border: 2px solid red; */
+    text-align: center;
+    position: relative;
+    left: 40%;
+    top: 85px;
+    border-radius: 980px;
+    padding: 9px 15px;
+    font-size: 14px;
+    text-decoration: none;
+     border: 1px solid #0071e3;
+    background: #0071e3;
+    color: white;
+   
+
+}
+#Airpods a+a{
+     text-align: center;
+    position: relative;
+    left: 41%;
+    top: 85px;
+    border-radius: 980px;
+    padding: 9px 16px;
+    font-size: 14px;
+    text-decoration: none;
+     border: 1px solid #0071e3;
+    background: none;
+    color: #0071e3;
+}
+#Airpods a:hover{
+      color: white;
+    background-color: #0071e3;
+}
+#Watch{
+     background-color: #f5f5f7;
+    background-image: url(../image/watch);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center center;
+}
+#Watch h2{
+    text-align: center;
+    position: relative;
+    top: 60px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#Watch p{
+    /* border: 2px solid red; */
+    text-align: center;
+    position: relative;
+    top: 62px;
+    font-size: 20px;
+}
+#Watch a{
+    /* border: 2px solid red; */
+    text-align: center;
+    position: relative;
+    left: 40%;
+    top: 85px;
+    border-radius: 980px;
+    padding: 9px 15px;
+    font-size: 14px;
+    text-decoration: none;
+     border: 1px solid #0071e3;
+    background: #0071e3;
+    color: white;
+   
+
+}
+#Watch a+a{
+     text-align: center;
+    position: relative;
+    left: 41%;
+    top: 85px;
+    border-radius: 980px;
+    padding: 9px 16px;
+    font-size: 14px;
+    text-decoration: none;
+     border: 1px solid #0071e3;
+    background: none;
+    color: #0071e3;
+}
+#Watch a:hover{
+      color: white;
+    background-color: #0071e3;
+}
+#sub-section4{
+    
+    height: 88vh;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+#macbook,#twoiphones{
+    height: inherit;
+    flex: 1;
+    /* border: 2px solid red; */
+}
+#macbook{
+     background-color: #f5f5f7;
+    background-image: url(../image/macbook.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center center;
+}
+#macbook h2{
+    text-align: center;
+    position: relative;
+    top: 60px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#macbook p{
+    /* border: 2px solid red; */
+    text-align: center;
+    position: relative;
+    top: 62px;
+    font-size: 20px;
+}
+#macbook a{
+    /* border: 2px solid red; */
+    text-align: center;
+    position: relative;
+    left: 40%;
+    top: 85px;
+    border-radius: 980px;
+    padding: 9px 15px;
+    font-size: 14px;
+    text-decoration: none;
+     border: 1px solid #0071e3;
+    background: #0071e3;
+    color: white;
+   
+
+}
+#macbook a+a{
+     text-align: center;
+    position: relative;
+    left: 41%;
+    top: 85px;
+    border-radius: 980px;
+    padding: 9px 16px;
+    font-size: 14px;
+    text-decoration: none;
+     border: 1px solid #0071e3;
+    background: none;
+    color: #0071e3;
+}
+#macbook a:hover{
+      color: white;
+    background-color: #0071e3;
+}
+#twoiphones{
+     background-color: #f5f5f7;
+    background-image: url(../image/twoiphones1.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center center;
+}
+#twoiphones h2{
+    text-align: center;
+    position: relative;
+    top: 60px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#twoiphones p{
+    /* border: 2px solid red; */
+    text-align: center;
+    position: relative;
+    top: 62px;
+    font-size: 20px;
+}
+#twoiphones a{
+    /* border: 2px solid red; */
+    text-align: center;
+    position: relative;
+    left: 40%;
+    top: 85px;
+    border-radius: 980px;
+    padding: 9px 15px;
+    font-size: 14px;
+    text-decoration: none;
+     border: 1px solid #0071e3;
+    background: #0071e3;
+    color: white;
+   
+
+}
+
+#twoiphones a:hover{
+      color: white;
+    background-color: #0071e3;
+}
+#sub-section5{
+     height: 90vh;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+
+}

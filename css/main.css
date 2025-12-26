@@ -1,0 +1,108 @@
+@import url("./section.css");
+@import url(./footer.css);
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family:  "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+}
+#nav{
+    /* border: 3px solid; */
+    height: 44px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color:white;
+    background-color:rgba(0, 0, 0, 0.8);
+    backdrop-filter: saturate(180%) blur(20px);
+    z-index: 1;
+}
+#sub-nav{
+    /* border: 2px solid red; */
+    height: inherit;
+    width: 65%;
+    margin: auto;
+}
+#sub-nav svg{
+    fill:white;
+}
+#sub-nav ol{
+    list-style: none;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 12px;
+}
+#sub-nav ol li:hover{
+    cursor: pointer;
+
+
+}
+#sub-section{
+    /* border: 5px solid; */
+    height: 86vh;
+
+}
+
+#sub-section video{
+   
+   /* border: 2px solid red; */
+     height: 86%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -111;
+}
+#sub-section div{
+    display: flex;
+    /* border: 2px solid; */
+    /* justify-content: flex-end; */
+    align-items: center;
+    flex-direction: column;
+    height: inherit;
+    padding-top:340px ;
+}
+#sub-section div  h2{
+    font-size: 48px;
+    font-weight: 600;
+}
+#sub-section div p{
+    font-size: 27px;
+    font-weight: 400;
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* section div button{
+    border-radius:25px ;
+    width: 6%;
+    padding: 10px;
+    color: #06c;
+    outline: none;
+    border: 1px solid;
+    background: none;
+    font-size: 20px; */
+    
+#sub-section button{
+    margin-top: 20px;
+    padding: 11px;
+    border-radius:25px;
+    border: 1px solid #06c;
+    background: none;
+    color: #06c;
+    font-size: 17px;
+    font-weight: 400;
+    width: 5%;
+
+}
+
+#sub-section button:hover{
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
